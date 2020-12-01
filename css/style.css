@@ -69,7 +69,7 @@ li {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0, 875;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -80,7 +80,7 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -150,7 +150,7 @@ li {
   color: #ffffff;
 }
 .href_nav_color {
-  color: #9f9fa3;
+  color: rgba(255, 255, 255, 0.6);
 }
 .maps_href_color {
   color: #ffffff;
@@ -298,4 +298,29 @@ li {
   display: flex;
   padding: 0;
   margin-left: auto;
+}
+.href_nav {
+  color: rgba(255, 255, 255, 0.6);
+}
+.nav_contact {
+  display: flex;
+  padding: 0;
+  margin-left: auto;
+}
+
+.portfolio_url_text_color {
+  color: #757575;
+}
+.portfolio_url {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1206px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav_bar {
+  margin-left: 130px;
+}
+.nav_contact {
+  margin-right: 150px;
 }
