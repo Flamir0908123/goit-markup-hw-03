@@ -170,6 +170,7 @@ ul {
   letter-spacing: 0.06em;
   display: inline;
   color: #212121;
+  margin-bottom: 4px;
 }
 .photo_text {
   font-family: Roboto;
