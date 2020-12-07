@@ -131,7 +131,7 @@ ul {
 }
 .nav_portfoil {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 36px;
   justify-content: center;
 }
 .nav_btn {
@@ -206,7 +206,7 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.contact_list {
+.contact_list:not(:last-child) {
   margin-bottom: 9px;
 }
 .address {
