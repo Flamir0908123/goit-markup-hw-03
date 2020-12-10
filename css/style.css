@@ -325,21 +325,9 @@ ul {
 .color_footer {
   color: rgba(255, 255, 255, 0.6);
 }
-.envelop {
-  fill: #757575;
-  margin-right: 10px;
+.team_item:not(:last-child) {
+  margin-right: 30px;
 }
-.address_link:hover .envelop {
-  fill: #2196f3;
-}
-.address_link:hover .phone {
-  fill: #2196f3;
-}
-.phone {
-  fill: #757575;
-  margin-right: 10px;
-}
-.features_item {
-  display: flex;
-  align-items: center;
+.about_list_item:not(:last-child) {
+  margin-right: 30px;
 }
