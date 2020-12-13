@@ -107,7 +107,7 @@ ul {
   display: flex;
   align-items: center;
 }
-.menu_link_list {
+.menu_item:not(:last-child) {
   margin-right: 50px;
 }
 .icon_head {
@@ -124,7 +124,7 @@ ul {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-.address_link {
+.menu_item:not(:last-child) {
   margin-right: 50px;
 }
 .accent {
