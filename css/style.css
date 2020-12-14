@@ -200,7 +200,6 @@ ul {
   color: #757575;
 }
 .features_items {
-  margin-right: 30px;
   width: calc((100% - 90px) / 4);
 }
 .features_list {
@@ -330,5 +329,11 @@ ul {
   margin-right: 30px;
 }
 .about_list_item:not(:last-child) {
+  margin-right: 30px;
+}
+.address_link:not(:last-child) {
+  margin-right: 50px;
+}
+.features_items:not(:last-child) {
   margin-right: 30px;
 }
